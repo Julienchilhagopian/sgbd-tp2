@@ -19,6 +19,7 @@ public class BTreeNode {
 
     BTreeNode search(int keyNumber) {
         int i = 0;
+        // On cherche la première clé supérieur ou de même valeur que celle recherchée
         while (i < nbKeys && keyNumber > this.keys.get(i)){
             i++;
         }
