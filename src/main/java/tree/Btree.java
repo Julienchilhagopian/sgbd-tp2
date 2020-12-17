@@ -9,6 +9,12 @@ public class Btree {
         this.degree = degree;
     }
 
+    Btree(int degree, BTreeNode root) {
+        this.treeRoot = root;
+        this.degree = degree;
+    }
+
+
     public BTreeNode search(int key) {
         if (this.treeRoot == null)
             return null;
@@ -16,5 +22,10 @@ public class Btree {
             return this.treeRoot.search(key);
     }
 
+    public void traverse() {
+        if (this.treeRoot != null)
+            this.treeRoot.traverse();
+        System.out.println("test");
+    }
 
 }
