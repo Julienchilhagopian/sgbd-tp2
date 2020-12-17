@@ -1,4 +1,6 @@
 # LAB 2 - Documentation
+#### Léo GEINDRE - Julien CHIL HAGOPIAN
+
 
 ### Contexte
 
