@@ -12,3 +12,6 @@ Nous avons choisi de découper l'algorithme du B-Tree en deux classes différent
 
 Nous avons construit, dans le Main de l'application, l'arbre suivant : 
 ![Alt text](./tree-pic.png)
+
+
+On lance alors le programme, avec comme objectif, de trouver la cellule contenant la clef 160. On trouve donc la cellule du milieu du 3ème étage de la partie droite de l'arbre.
