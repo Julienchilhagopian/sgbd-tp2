@@ -14,18 +14,11 @@ public class Btree {
         this.degree = degree;
     }
 
-
     public BTreeNode search(int key) {
         if (this.treeRoot == null)
             return null;
         else
             return this.treeRoot.search(key);
-    }
-
-    public void traverse() {
-        if (this.treeRoot != null)
-            this.treeRoot.traverse();
-        System.out.println("test");
     }
 
 }

@@ -98,6 +98,6 @@ public class App {
 		root.addChild(firstChildRight);
 
 		Btree tree = new Btree(3, root);
-		System.out.println(tree.search(10));
+		System.out.println(tree.search(160));
 	}
 }
