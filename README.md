@@ -11,4 +11,4 @@ Nous avons choisi de découper l'algorithme du B-Tree en deux classes différent
 ### Description de l'expérience. 
 
 Nous avons construit, dans le Main de l'application, l'arbre suivant : 
-![Alt text](.img.jpg?raw=true "Title")
+![Alt text](./tree-pic.png)
